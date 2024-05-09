@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="flex flex-col justify-center items-center">
-    <h1 className='text-lg font-bold'> Fill out this form </h1>
+    <h1 className='text-lg font-bold'> Enter your details </h1>
     <form className="flex flex-col w-[800px] p-5 bg-gray-100 mt-3 gap-2" onSubmit={submitHandler} border rounded-md>
 
       <label>First Name</label>
